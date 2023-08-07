@@ -1,0 +1,7 @@
+{
+
+  "<tipo xpath>_nombre_xpath": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "VALORXPATH"
+  }
+}
