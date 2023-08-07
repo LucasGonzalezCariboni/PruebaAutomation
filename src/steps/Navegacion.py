@@ -6,7 +6,8 @@ from Andreani_QA_Selenium.Selenium import Selenium
 
 def navegacion_URL(self):
     with allure.step("Navegacion"):
-        Selenium.get_element(self, self.data_resource["URL"])
+        Selenium.open_browser(self, self.data_resource["URL"])
+        Selenium.wait(10)
 
 
 

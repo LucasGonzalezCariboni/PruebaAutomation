@@ -13,13 +13,8 @@ class Navegacion(Selenium, unittest.TestCase):
             Selenium.set_proyect(self)
             Selenium.set_retry(self, 5)
 
-
     def test_000_prueba_navegacion(self):
         NavegacionSteps.navegacion_URL(self)
-
-
-
-
 
     def tear_down(self):
         self.tear_down()
@@ -27,4 +22,3 @@ class Navegacion(Selenium, unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
