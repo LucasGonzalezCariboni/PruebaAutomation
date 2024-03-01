@@ -4,7 +4,9 @@ import allure
 from Andreani_QA_Selenium.Selenium import Selenium
 from src.steps import Navegacion as NavegacionSteps
 
+# Esto es un comentario
 
+"""Esto tambien es un comentario"""
 class Navegacion(Selenium, unittest.TestCase):
 
     def setUp(self):
@@ -22,3 +24,5 @@ class Navegacion(Selenium, unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
